@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+
+<div id="container" style="width: 640px;margin:0 auto">
+  <button id="tool-pen">pen</button>
+  <button id="tool-rect">rect</button>
+  <button id="tool-rect">circle</button>
+  <button id="tool-rect">undo</button>
+  <button id="tool-rect">redo</button>
+  <p>
+    <canvas id="myCanvas" width="640" height="300" style="background:#eee;"></canvas>
+  </p>
+</div>
+<script src="js/paint.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  new Paint('myCanvas');
+</script>
+</body>
+</html>
